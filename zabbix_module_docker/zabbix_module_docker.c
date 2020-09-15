@@ -2529,3 +2529,4 @@ int     zbx_module_docker_modver(AGENT_REQUEST *request, AGENT_RESULT *result)
         SET_STR_RESULT(result, zbx_strdup(NULL, m_version));
         return SYSINFO_RET_OK;
 }
+
